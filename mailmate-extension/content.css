@@ -1,0 +1,44 @@
+/* Tone Selector & AI Button Container */
+.tone-selector-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 10px;
+}
+
+/* Tone Selector Dropdown Styling */
+.ai-tone-dropdown {
+    background-color: #f1f3f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+
+/* Hover Effect */
+.ai-tone-dropdown:hover {
+    background-color: #e0e0e0;
+    border-color: #888;
+}
+
+/* Focus Effect */
+.ai-tone-dropdown:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 4px rgba(26, 115, 232, 0.5);
+}
+
+/* Dropdown Arrow Styling */
+.ai-tone-dropdown::-ms-expand {
+    display: none;
+}
+
+.ai-tone-dropdown option {
+    font-size: 14px;
+    padding: 5px;
+    color: #333;
+}
